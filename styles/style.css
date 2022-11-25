@@ -6,7 +6,7 @@
   /* выше установили ограничение по максимальной ширине */
   margin: 0 auto;
   /* выше для экранов больше 1600px отцентрировали весь контент */
-  font-family: 'Helvetica Neue', Arial, sans-serif;
+  font-family: 'Helvetica Neue', Arila, sans-serif;
 }
 
 .header {
@@ -17,7 +17,6 @@
   height: 100vh;
   min-height: 600px;
   max-height: 756px;
-  border: 5px solid red;
 }
 
 .header__title {
@@ -75,7 +74,42 @@
 }
 
 .description {
+  box-sizing: content-box;
+  border: 5px solid red;
+  padding-top: 100px;
+}
 
+.two-columns {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  width: 80%;
+  margin: 100px auto;
+  border: 5px solid red;
+
+}
+
+.two-columns__brief {
+  width: 175px;
+  line-height: 1.2;
+  font-size: 18px;
+  color: #2f80ed;
+}
+
+.two-columns__main-text {
+  width: 80%;
+  min-width: 784px;
+
+}
+
+.two-columns__paragraph {
+  line-height: 34px;
+  font-size: 24px;
+}
+.two-columns__span-accent {
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: 600;
 }
 
 .digits {
