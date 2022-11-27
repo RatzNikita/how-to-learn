@@ -311,6 +311,7 @@
 }
 
 .footer__column-link {
+  color: white;
   width: 50%;
   text-decoration: none;
   line-height: 30px;
